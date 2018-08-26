@@ -1,5 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 .border-bottom-color {
-    border-bottom : rgba(0, 0, 0, 0.5);
-    border-width: 0 0 1px 0;
-    border-style: solid;
+  border-bottom: rgba(0, 0, 0, 0.5);
+  border-width: 0 0 1px 0;
+  border-style: solid;
+}
+
+.main-header-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0.5rem;
+  font-weight: 600;
+}
+
+.sub-header-text {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.5) !important;
+  font-size: 1rem;
+  margin: 0;
+  padding-left: 0.5rem;
+  font-weight: 400;
+}
+
+.author-name-text {
+  /* color: rgba(0, 0, 0, 0.3) !important; */
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  margin: 0;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  font-weight: 400;
+}
+.date-added {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  margin: 0;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  font-weight: 400;
+}
+
+.date-read-time {
+  display: flex;
+}
+
+.star-icon{
+    height: 15px;
+    width: 15px;
+    padding: 9px 3px 0 1rem;
+    margin: 0;
+}
+
+.read-time {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  margin: 0;
+  /* padding-left: 2rem; */
+  padding-top: 0.5rem;
+  font-weight: 400;
+}
+
+.article-header-info {
+  padding-left: 2.5rem;
 }

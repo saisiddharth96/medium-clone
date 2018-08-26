@@ -10,6 +10,8 @@ const TopRecommendedArticles = () => {
     return (
         <div className = "top-recommended-articles-container border-bottom-color">
             <ArticleSingleSquareSmall/>
+            <ArticleSingleSquareSmall/>
+            <ArticleSingleSquareSmall/>
         </div>
     );
 };

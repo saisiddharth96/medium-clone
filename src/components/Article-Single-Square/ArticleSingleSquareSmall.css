@@ -1,9 +1,16 @@
 .square-article-container{
     height: 100%;
-    width: 100%
+    width: 100%;
+    padding: 2rem;
 }
 
-.header-image{
+.article-header-image{
+    width: inherit;
+    height: 50%;
+}
+
+.header-image {
     height: 100%;
     width: 100%;
 }
+

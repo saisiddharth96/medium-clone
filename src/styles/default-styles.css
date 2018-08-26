@@ -1,0 +1,5 @@
+.border-bottom-color {
+    border-bottom : rgba(0, 0, 0, 0.5);
+    border-width: 0 0 1px 0;
+    border-style: solid;
+}

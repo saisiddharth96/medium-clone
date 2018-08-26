@@ -1,0 +1,9 @@
+@import "../../styles/default-styles.css";
+
+.top-recommended-articles-container{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+    width: 100%;
+    height: 28rem;
+}
